@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect"
+    href="https://fonts.gstatic.com" crossorigin><link 
+    href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hauk industries</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+        .img-in-text {
+            width: 15px;
+            height: 15px;
+            padding-left: 119px;
+        }
+        #logo{
+            font-size: 20px;
+            user-select: 0;
+            cursor:pointer
+        }
+        .Menu {
+            display:flex;
+            justify-content: space-between;
+        }
+        #comp{
+            padding-right: 119px;
+        }
+        #comp li{
+            display: inline;
+            text-decoration: none;
+            padding-left: 20px;
+            user-select: 0;
+            cursor:pointer
+        }
+        #inicial{
+            font-size: 70px;
+            padding: 50px 0 0 119px ;
+            margin-bottom: 0;
+            font-family:'Epilogue', sans-serif;
+            line-height: 90px;
+            background: linear-gradient(to right, rgb(97, 97, 97), rgb(0, 0, 0));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        #inicial2{
+            padding: 0 0 0 119px;
+            font-family: 'Epilogue';
+            color: #4D4C4C;
+        }
+        .corpo{
+            display:flex;
+            justify-content: space-between;
+
+        }
+        #img-corpo{
+            padding-right: 50px;
+        }
+        .botoes-corpo{
+            display:flex;
+            justify-content:start;
+            
+            margin-left:119px;
+            user-select: 0;
+            cursor:pointer
+        }
+        #contactus{
+            padding: 12px 0 12px 0px;
+            width: 120px;
+            color: rgb(236, 236, 236);
+            background:rgb(0, 0, 0);
+            border-radius: 2px;
+            text-align: center;
+            font-family: 'Epilogue';
+        }
+        #contactus:hover{
+            transition: 0.3s;
+            background-color: rgb(87, 87, 87);
+            
+        }
+        #products{
+        
+            padding: 12px 0 12px 0px;
+            margin-left: 10px;
+            width: 150px;
+            color: rgb(0, 0, 0);
+            background:rgb(202, 202, 202);
+            border-radius: 2px;
+            text-align:center;
+            font-family: 'Epilogue';
+            
+        }
+        #products:hover{
+            transition: 0.3s;
+            background-color:silver ;
+            
+        }
+        #advanced{
+            font-size: 48px;
+            padding: 30px 0 0 119px ;
+            margin-bottom: 0;
+            font-family:'Epilogue', sans-serif;
+            line-height: 90px;
+            background: linear-gradient(to right, rgb(97, 97, 97), rgb(0, 0, 0));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .caixas-texto{
+            display:flex;
+            justify-content:start;
+            margin-top: 151px;
+            margin-left:119px;
+            
+        }
+        #box1{
+            
+            height: 441px;
+            width: 383px;
+            color: rgb(236, 236, 236);
+            background:#333333;
+            border-radius: 8px;
+            text-align: center;
+            font-family: 'Epilogue';
+        }
+        #in-box1-title{
+            margin-top: 90px;
+            margin-bottom: 23px;
+            text-align: center;
+            font-family: 'Epilogue';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 134% ;
+
+        }
+        #in-box1{
+            margin-left: 32px;
+            margin-right: 32px;
+            font-weight: 500px;
+            line-height: 28px;
+            text-align: center;
+            font-family: 'Epilogue';
+        }
+        #box2{
+            height: 441px;
+            width: 383px;
+            margin-left: 26px;
+            color: rgb(236, 236, 236);
+            background:#333333;
+            border-radius: 8px;
+            text-align: center;
+            font-family: 'Epilogue';
+        }
+        #in-box2-title{
+            margin-top: 90px;
+            margin-bottom: 23px;
+            text-align: center;
+            font-family: 'Epilogue';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 134% ;
+
+        }
+        #in-box2{
+            margin-left: 32px;
+            margin-right: 32px;
+            font-weight: 500px;
+            line-height: 28px;
+            text-align: center;
+            font-family: 'Epilogue';
+        }
+        #box3{
+            height: 441px;
+            width: 383px;
+            margin-left: 26px;
+            color: rgb(236, 236, 236);
+            background:#333333;
+            border-radius: 8px;
+            
+        }
+        #in-box3-title{
+            margin-top: 90px;
+            margin-bottom: 23px;
+            text-align: center;
+            font-family: 'Epilogue';
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 134% ;
+
+        }
+        #in-box3{
+            margin-left: 32px;
+            margin-right: 32px;
+            font-weight: 500px;
+            line-height: 28px;
+            text-align: center;
+            font-family: 'Epilogue';
+        }
+    </style>
+</head>
+<body>
+    <header class = "Menu">
+        <h1 id="logo"><img class ="img-in-text" src="ave.png" alt="Logo da empresa" >Hawk Industries</img></h1>
+        <ul id="comp">
+            <li>Home</li>
+            <li>About</li>
+            <li>Shop</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+        </ul>
+    </header>
+    <div class="corpo">
+        <div> 
+        <p id = "inicial"><b>We create<br> gaming <br> breakthroughts.</b></p>
+        <P id = "inicial2">Hawk Industries is a company that inspires new<br> ways to play games by combining innovative<br> software with an easy to use interface.</P>
+        <div class="botoes-corpo" >
+            <div id = "contactus">Contact Us</div>
+            <div id = "products">See Products</div>
+
+        </div>
+        </div>
+        <img id = "img-corpo" src="Player.png" alt ="Jogador"></img>
+    </div>
+    <h1 id="advanced">Advanced technology for gamers</h1>
+        <div class="caixas-texto">
+            <div id="box1">
+                <p id ="in-box1-title"> Friends</p>
+                <div id ="in-box1"><p>We offer an amazing community of gamers that is 
+                    constantly growing in numbers. You can find people with your simillar interests in various video game genres and play together, chat and exchange ideas.</p></div>
+            </div>
+            <div id="box2">
+                <p id ="in-box2-title"> Efficiency</p>
+                <div id ="in-box2"><p>Our Machine Learning technology carefully  analyzes your
+                     behavior for patterns and recommends video games that you might like based on the 
+                     games you’re already playing. That way you save time and have a general idea of what to play next! </p></div>
+            </div>
+            <div id="box3">
+                <p id ="in-box3-title"> Freedom</p>
+                <div id ="in-box3"><p>Our software is fully customizable with shortcuts, themes, and various other options. You are in complete control and you can modify it to suit your taste.
+                    We don’t force you to have our software look a certain way. It’s your canvas! </p></div>
+            </div>
+        </div>
+</body>
+</html>
